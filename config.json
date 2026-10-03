@@ -1,0 +1,37 @@
+{
+  "translation_backend": "auto",
+  "api": {
+    "base_url": "",
+    "api_key": "",
+    "model": "",
+    "temperature": 0.2,
+    "batch_size": 20,
+    "context_lines": 2,
+    "max_retries": 2,
+    "timeout": 120
+  },
+  "ollama": {
+    "base_url": "http://127.0.0.1:11434",
+    "model": "qwen2.5:7b-instruct"
+  },
+  "nllb": {
+    "model_id": "facebook/nllb-200-distilled-600M",
+    "device": "auto",
+    "beam_size": 4,
+    "batch_size": 32
+  },
+  "asr": {
+    "model_size": "auto",
+    "device": "auto",
+    "compute_type": "auto",
+    "beam_size": 5,
+    "language": "auto",
+    "cpu_threads": null,
+    "vad_threshold": null
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 7860,
+    "preload": true
+  }
+}

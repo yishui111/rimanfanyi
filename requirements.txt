@@ -1,0 +1,24 @@
+# 核心:语音识别(基于 CTranslate2)
+faster-whisper>=1.0.3
+ctranslate2>=4.3.1
+
+# 核心:本地翻译模型 NLLB(日/韩 -> 中)
+transformers>=4.44.2
+sentencepiece>=0.2.0
+
+# 字幕解析(SRT/ASS/SSA/VTT)与编码检测
+pysubs2>=1.6.0
+charset-normalizer>=3.0
+
+# 网页界面
+gradio>=4.44.0
+
+# 模型下载 / 系统工具
+huggingface_hub>=0.24.6
+psutil>=5.9
+tqdm
+
+# 测试与评测辅助
+edge-tts>=6.1.12
+jiwer>=3.0.4
+pytest>=8.0
